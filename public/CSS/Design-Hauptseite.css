@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body {
+    font-family: Arial;
+    paddings: 0px;
+    background: rgb(44, 44, 44);
+    background-image: url("/public/Pictures/Hintergrundbild.jpg");
+    background-attachment: fixed;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+  }
+  
+    .header {
+    text-align: center;
+    background: rgba(58, 58, 58, 0.295);
+    position: center;
+    align-items: center;
+    padding: 0px;
+    padding-right: 0;
+    padding-left: 0;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    widtxh: 956px;
+    border-radiusp: 20px;
+    margin-top: 0px;
+        }
+  .header h1 {
+    font-size: 64px;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: 500;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+header{
+    padding: 10px 100px;
+    box-sizing: border-box;
+    display:auto;
+    positionw: absolute;
+    background-color: #f00;
+    text-align: center;
+    margin-bottom: rem;
+    padding: 10rem
+
+}
+nav{
+    width: 100%;
+    height: 51px;
+    background: rgb(44, 44, 44);
+    border-top: 1px solid rgba(255, 255, 255, .2);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    position:sticky;
+    top: 0;
+}
+nav ul{
+    display:flex;
+    margin: 0;
+    padding: 0 100px;
+    float:center;
+}
+nav ul li{
+   list-style: none;
+   
+}
+nav ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+    border-radius: 100pt;
+    transition: .5s;
+}
+
+nav ul li a.active{
+    background:rgb(27, 108, 214);
+}
+nav ul li a:hover{
+    background: rgb(255, 255, 255);
+    border-radiusv: 0px 0px 0px 0px;
+    color: rgb(27, 108, 214);
+}
+  
+  
+  .columnn {   
+    float: left;
+    width: 75%;
+    text-align: center;
+    color:white;
+    font-family: 
+  }
+  
+  
+  .rightcolumn {
+    float: left;
+    width: 10%;
+    background-color: rgba(241, 241, 241, 0);
+    
+  }
+  
+  
+  .fakeimg {
+    background-color: #aaa;
+    width: 400px;
+    padding: 30px;
+    background-image: url(/public/Pictures/anfangderseite.jpg);
+    height: auto;
+    color:white;
+    height: 400px;
+    text-align: center;
+    margin: auto;
+
+  }
+  .fakeimg2 {
+    background-color: #aaa;
+    width: 100%;
+    padding: 15px;
+    background-image: url(/public/Pictures/anfangderseite2.jpg);
+    margin:auto;
+    width:500px;
+    height:711px;
+
+  }
+  .fakeimg3{
+    background-color: #aaa;
+    width: 100%;
+    padding: 15px;
+    
+  }
+  
+  .card {
+    display:block;
+    text-align: center;
+    background: rgba(46, 46, 46, 0.9);
+    position: center;
+    align-items: center;
+    padding: ;
+    padding-right: 0;
+    padding-left: 0;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    width: 956px;
+    border-left: 4rem;
+    color:white;
+   
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .footer {
+    padding: 0px;
+    text-align: center;
+    background: rgb(53, 53, 53);
+    margin:auto;
+    display:flex;
+    color:white;
+    justify-content: space-between;
+    border: grey;
+    
+    
+    
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {   
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+  .p2{
+    color: white;
+    margin-bottom: 0px;
+  }
+  .active {
+    background: rgba(12, 66, 218, 0.651);
+    
+  }
+  .ulla{
+    list-style-type: none;
+    list-style: none;
+  }
+  
+  .colorspecs{
+    color:rgb(27, 108, 214);
+    ;
+  }
+
+  .guidax{
+    color: white;
+    font-size: 50px;
+  }
+
+
+  

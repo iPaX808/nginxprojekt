@@ -1,0 +1,33 @@
+- apiVersion: v1
+  kind: Service
+  metadata:
+    name: ${DEPLOYMENT_CONFIG_NAME}
+    labels:
+      app: ${APP_NAME_LABEL}
+  spec:
+    ports:
+    - name: 8003-tcp
+      port: 8003
+      protocol: TCP
+      targetPort: 8003
+    selector:
+      deploymentConfig: ${DEPLOYMENT_CONFIG_NAME}
+    sessionAffinity: None
+    type: ClusterIP
+  status:
+    loadBalancer: {}
+parameters:
+- description: Deploymentconfig Name
+  generate: expression
+  name: DEPLOYMENT_CONFIG_NAME
+  required: true
+- description: Label App
+  generate: expression
+  name: APP_NAME_LABEL
+- description: Image Name:Tag
+  generate: expression
+  name: IMAGE_NAME
+  required: true
+- description: Image Space
+  name: IMAGE_NAMESPACE
+  required: true

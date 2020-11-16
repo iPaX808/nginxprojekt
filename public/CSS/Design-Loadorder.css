@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body {
+    font-family: Arial;
+    paddings: 0px;
+    background: rgb(100, 98, 98, 0.2);
+    background-image: url("/public/Pictures/Hintergrundbild.jpg");
+    background-attachment: fixed;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    
+  }
+  
+  
+  .header {
+    text-align: center;
+    background: rgba(58, 58, 58, 0.295);
+    position: center;
+    align-items: center;
+    padding: 0px;
+    padding-right: 0;
+    padding-left: 0;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    widtxh: 956px;
+    border-radiusp: 20px;
+    margin-top: 0px;
+        }
+  .header h1 {
+    font-size: 64px;
+    font-family: 'MedievalSharp', cursive;
+    font-weight: 500;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  
+}
+header{
+    padding: 10px 100px;
+    box-sizing: border-box;
+    display:auto;
+    positionw: absolute;
+    background-color: #f00;
+    text-align: center;
+    margin-bottom: rem;
+    padding: 10rem
+
+}
+nav{
+    width: 100%;
+    height: 51px;
+    background: rgb(44, 44, 44);
+    border-top: 1px solid rgba(255,255,255,.2);
+    border-bottom: 1px solid rgba(255,255,255,.2);
+    position:sticky;
+    top: 0;
+}
+nav ul{
+    display:flex;
+    margin: 0;
+    padding: 0 100px;
+    float:center;
+    justify-content: space-between;
+    
+    ;
+}
+nav ul li{
+   list-style: none;
+   
+   
+}
+nav ul li a{
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+    transition: .5s;
+    border-radius: 100pt;
+}
+
+nav ul li a.active{
+    background:rgb(27, 108, 214);
+}
+nav ul li a:hover{
+    background: rgb(255, 255, 255);
+    color:rgb(27, 108, 214)
+}
+  
+  
+.body_loadorder{
+      display:block;
+      text-align: center;
+      background: rgba(46, 46, 46, 0.9);
+      position: center;
+      align-items: center;
+      padding: ;
+      padding-right: 0;
+      padding-left: 0;
+      margin: auto;
+      display: block;
+      margin-top: 20px;
+      width: 956px;
+      border-left: 4rem;
+      color: white;
+      
+  }   
+  .BildLoadorder{
+      padding-bottom: 10px;
+      margin-bottom: auto;
+      
+  }
+  .active{
+    background: rgba(12, 66, 218, 0.651);
+  }
+  .p2{
+    color:white;
+     margin-bottom: 0px;
+  }
+  
+  .nxtbutton{
+    display: block;
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 50px;
+    transition: .5s;
+    border-radius: 100pt;
+    border: olive;
+  }
