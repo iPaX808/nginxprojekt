@@ -14,9 +14,7 @@
       deploymentConfig: ${DEPLOYMENT_CONFIG_NAME}
     sessionAffinity: None
     type: ClusterIP
-  status:
-    loadBalancer: {}
-parameters:
+  parameters:
 - description: Deploymentconfig Name
   generate: expression
   name: DEPLOYMENT_CONFIG_NAME
